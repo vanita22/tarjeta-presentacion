@@ -1,0 +1,73 @@
+.tarjeta{
+	background-image: url(../img/vane.jpg);
+	position: absolute;
+	width: 500px;
+	height: 320px;
+	left: 300px;
+	top: 150px;
+}
+
+#tarj{
+	width: 0;
+	height: 0;
+	border-bottom: 320px solid black;
+	border-left: 320px solid transparent;
+	position: absolute;
+	left: 50px;	
+}
+
+#tarj2{
+	width: 300px;
+	height: 320px;
+	background: black;
+	position: absolute;
+	left: 370px;	
+}
+
+.logo{
+	position: absolute;
+	left: 400px;
+	top: 140px;
+}
+
+.logo1{
+	background-image: url(../img/Logo.png);
+	position: absolute;
+	width: 180px;
+	height: 60px;	
+}
+
+#nombre{
+	position: absolute;
+	font-family: 'verdana';
+	color: white;
+	font-size: 10px;
+	left: 360px; 
+	top: 50px;
+	display: inline-block;
+	width: 300px;
+}
+
+#nombre2{
+	position: absolute;
+	font-family: 'verdana';
+	color: yellow;
+	font-size: 7px;
+	left: 360px; 
+	top: 110px;
+	display: inline-block;
+	width: 300px;
+}
+
+
+#nombre3{
+	position: absolute;
+	font-family: 'verdana';
+	color: white;
+	font-size: 6px;
+	left: 360px; 
+	top: 160px;
+	display: inline-block;
+	width: 300px;
+}
+
