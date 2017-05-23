@@ -25,24 +25,19 @@
 }
 
 .logo{
-	position: absolute;
-	left: 400px;
-	top: 140px;
+	position: relative;
+	left: 40px;
+	top: 1px;	
 }
 
-.logo1{
-	background-image: url(../img/Logo.png);
-	position: absolute;
-	width: 180px;
-	height: 60px;	
-}
+
 
 #nombre{
 	position: absolute;
 	font-family: 'verdana';
 	color: white;
 	font-size: 10px;
-	left: 360px; 
+	left: 350px; 
 	top: 50px;
 	display: inline-block;
 	width: 300px;
@@ -53,7 +48,7 @@
 	font-family: 'verdana';
 	color: yellow;
 	font-size: 7px;
-	left: 360px; 
+	left: 350px; 
 	top: 110px;
 	display: inline-block;
 	width: 300px;
@@ -65,9 +60,33 @@
 	font-family: 'verdana';
 	color: white;
 	font-size: 6px;
-	left: 360px; 
+	left: 350px; 
 	top: 160px;
 	display: inline-block;
 	width: 300px;
+}
+
+.lab{
+	position: absolute;
+	left: 590px;
+	top: 240px;
+}
+
+#linea{
+	position: absolute;
+	width: 5px;
+	height: 80px;
+	background-color: yellow;
+	left: 260px;
+	bottom: 0px;
+}
+
+#linea2{
+	position: absolute;
+	width: 5px;
+	height: 40px;
+	background-color: yellow;
+	left: 210px;
+	bottom: 0px;
 }
 
